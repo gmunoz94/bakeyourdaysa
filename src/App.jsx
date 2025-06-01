@@ -4,6 +4,25 @@ import './Custom.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCarrot, faCarSide, faCookie, faEnvelopeOpen, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 
+import oatmealRaisin from './assets/oatmealRaisin.png';
+import aboutImg from './assets/aboutImg.jpg';
+import chocolateChip from './assets/chocolateChip.png';
+import heroImg from './assets/heroImg.png';
+import logo from './assets/logo.png';
+import nurse from './assets/nurse.png';
+import snickerdoodle from './assets/Snickerdoodle.png';
+import volleyball from './assets/volleyball.png';
+import whiteChocolateChip from './assets/whiteChocolateChip.png';
+
+import baseball from './assets/carouselPhotos/baseball.jpg';
+import chocolateChip4 from './assets/carouselPhotos/chocolateChip4.jpg';
+import flowers from './assets/carouselPhotos/flowers.jpg';
+import peanutButter from './assets/carouselPhotos/peanutButter.jpg';
+import texasCactus from './assets/carouselPhotos/Texascactus.jpg';
+import valentine from './assets/carouselPhotos/valentineHearts.jpg';
+
+
+
 function App() {
 
   return (
@@ -13,7 +32,7 @@ function App() {
           <Container className='nav-container'>
             <Navbar.Brand className='nav-text'><img
               className='logoImg'
-              src='/public/assets/logo.png'
+              src='/src/assets/logo.png'
             />Bake Your Day SA</Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
@@ -36,23 +55,23 @@ function App() {
                   <Carousel>
                     <Carousel.Item>
                       <Container className='justify-content-center'>
-                        <Image className='home-img' src='/public/assets/carouselPhotos/baseball.jpg' />
+                        <Image className='home-img' src={baseball} />
                       </Container>
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/public/assets/carouselPhotos/chocolatechip4.jpg' />
+                      <Image className='home-img' src={chocolateChip4} />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/public/assets/carouselPhotos/flowers.jpg' />
+                      <Image className='home-img' src={flowers} />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/public/assets/carouselPhotos/peanutButter.jpg' />
+                      <Image className='home-img' src={peanutButter} />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/public/assets/carouselPhotos/Texascactus.jpg' />
+                      <Image className='home-img' src={texasCactus} />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/public/assets/carouselPhotos/valentineHearts.jpg' />
+                      <Image className='home-img' src={valentine} />
                     </Carousel.Item>
                   </Carousel>
                 </Card>
@@ -69,32 +88,32 @@ function App() {
             <Row>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/chocolateChip.png' />
+                  <Card.Img className='cookie-imgs' src={chocolateChip} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/nurse.png' />
+                  <Card.Img className='cookie-imgs' src={nurse} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/whiteChocolateChip.png' />
+                  <Card.Img className='cookie-imgs' src={whiteChocolateChip} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/oatmealRaisin.png' />
+                  <Card.Img className='cookie-imgs' src={oatmealRaisin} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/volleyball.png' />
+                  <Card.Img className='cookie-imgs' src={volleyball} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/public/assets/Snickerdoodle.png' />
+                  <Card.Img className='cookie-imgs' src={snickerdoodle} />
                 </Card>
               </Col>
             </Row>
@@ -109,7 +128,7 @@ function App() {
                 <p className='about-font'>I’m a cottage food baker in San Antonio. My cookies are baked with quality ingredients only and are delicious!  My kitchen is NOT peanut/tree nut free.  All orders can be placed by text or email 3 days in advance for regular cookies and 5 days for iced.  Payment upon delivery unless the order is 5 dozen or more.  Then require ½ down.</p>
               </Col>
               <Col lg='5' md='6'>
-                <Image className='home-img' fluid src='/public/assets/aboutImg.jpg'></Image>
+                <Image className='home-img' fluid src={aboutImg}></Image>
               </Col>
             </Row>
           </Container>
