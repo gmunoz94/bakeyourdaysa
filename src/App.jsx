@@ -4,6 +4,8 @@ import './Custom.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCarrot, faCarSide, faCookie, faEnvelopeOpen, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 
+import oatmealRaisin from './assets/oatmealRaisin.png';
+
 function App() {
 
   return (
@@ -84,7 +86,7 @@ function App() {
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/oatmealRaisin.png' />
+                  <Card.Img className='cookie-imgs' src={oatmealRaisin} />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
