@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCarrot, faCarSide, faCookie, faEnvelopeOpen, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 import oatmealRaisin from './assets/oatmealRaisin.png';
+import aboutImg from './assets/aboutImg.jpg';
 
 function App() {
 
@@ -111,7 +112,7 @@ function App() {
                 <p className='about-font'>I’m a cottage food baker in San Antonio. My cookies are baked with quality ingredients only and are delicious!  My kitchen is NOT peanut/tree nut free.  All orders can be placed by text or email 3 days in advance for regular cookies and 5 days for iced.  Payment upon delivery unless the order is 5 dozen or more.  Then require ½ down.</p>
               </Col>
               <Col lg='5' md='6'>
-                <Image className='home-img' fluid src='/src/assets/aboutImg.jpg'></Image>
+                <Image className='home-img' fluid src={'/public/assets/aboutImg.jpg'}></Image>
               </Col>
             </Row>
           </Container>
