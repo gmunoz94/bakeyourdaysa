@@ -4,9 +4,6 @@ import './Custom.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCarrot, faCarSide, faCookie, faEnvelopeOpen, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 
-import oatmealRaisin from './assets/oatmealRaisin.png';
-import aboutImg from './assets/aboutImg.jpg';
-
 function App() {
 
   return (
@@ -16,7 +13,7 @@ function App() {
           <Container className='nav-container'>
             <Navbar.Brand className='nav-text'><img
               className='logoImg'
-              src='/src/assets/logo.png'
+              src='/public/assets/logo.png'
             />Bake Your Day SA</Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
@@ -39,23 +36,23 @@ function App() {
                   <Carousel>
                     <Carousel.Item>
                       <Container className='justify-content-center'>
-                        <Image className='home-img' src='/src/assets/carouselPhotos/baseball.jpg' />
+                        <Image className='home-img' src='/public/assets/carouselPhotos/baseball.jpg' />
                       </Container>
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/src/assets/carouselPhotos/chocolatechip4.jpg' />
+                      <Image className='home-img' src='/public/assets/carouselPhotos/chocolatechip4.jpg' />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/src/assets/carouselPhotos/flowers.jpg' />
+                      <Image className='home-img' src='/public/assets/carouselPhotos/flowers.jpg' />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/src/assets/carouselPhotos/peanutButter.jpg' />
+                      <Image className='home-img' src='/public/assets/carouselPhotos/peanutButter.jpg' />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/src/assets/carouselPhotos/Texascactus.jpg' />
+                      <Image className='home-img' src='/public/assets/carouselPhotos/Texascactus.jpg' />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <Image className='home-img' src='/src/assets/carouselPhotos/valentineHearts.jpg' />
+                      <Image className='home-img' src='/public/assets/carouselPhotos/valentineHearts.jpg' />
                     </Carousel.Item>
                   </Carousel>
                 </Card>
@@ -72,32 +69,32 @@ function App() {
             <Row>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/chocolateChip.png' />
+                  <Card.Img className='cookie-imgs' src='/public/assets/chocolateChip.png' />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/nurse.png' />
+                  <Card.Img className='cookie-imgs' src='/public/assets/nurse.png' />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/whiteChocolateChip.png' />
+                  <Card.Img className='cookie-imgs' src='/public/assets/whiteChocolateChip.png' />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src={oatmealRaisin} />
+                  <Card.Img className='cookie-imgs' src='/public/assets/oatmealRaisin.png' />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/volleyball.png' />
+                  <Card.Img className='cookie-imgs' src='/public/assets/volleyball.png' />
                 </Card>
               </Col>
               <Col className='cookie-col' lg='4' md='6'>
                 <Card className='shadow cookie-card'>
-                  <Card.Img className='cookie-imgs' src='/src/assets/Snickerdoodle.png' />
+                  <Card.Img className='cookie-imgs' src='/public/assets/Snickerdoodle.png' />
                 </Card>
               </Col>
             </Row>
