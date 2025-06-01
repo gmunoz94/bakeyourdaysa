@@ -140,7 +140,7 @@ function App() {
             <Container className='section-padding'>
               <Row>
                 <Col lg='4'>
-                  <Card>
+                  <Card className='priceCard'>
                     <Card.Header className='text-center'>
                       <FontAwesomeIcon className='fa-icon' icon={faCookie} />
                       <br></br>
@@ -159,7 +159,7 @@ function App() {
                   </Card>
                 </Col>
                 <Col lg='4'>
-                  <Card>
+                  <Card className='priceCard'>
                     <Card.Header className='text-center'>
                       <FontAwesomeIcon className='fa-icon' icon={faCarrot} />
                       <br></br>
@@ -171,7 +171,7 @@ function App() {
                   </Card>
                 </Col>
                 <Col lg='4'>
-                  <Card>
+                  <Card className='priceCard'>
                     <Card.Header className='text-center'>
                       <FontAwesomeIcon className='fa-icon' icon={faCarSide} />
                       <br></br>
