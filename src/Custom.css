@@ -1,0 +1,96 @@
+.logoImg {
+  height: 75px;
+}
+
+.section-padding {
+  padding: 100px 0 80px;
+  background-color: antiquewhite;
+}
+
+.navbar>.nav-container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-container {
+  padding-left: 50px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+.cookie-section {
+  padding: 80px 0 100px;
+  background-color: burlywood;
+}
+
+.cookie-card {
+  padding: 20px 20px 20px;
+  background-color: antiquewhite;
+}
+
+.cookie-col {
+  padding: 20px 20px 20px;
+}
+
+.cookie-imgs {
+  padding: 20px 20px 20px;
+}
+
+.about-card {
+  padding: 15px;
+}
+
+.nav-color {
+  background-color: rgb(204, 179, 142);
+}
+
+@media (max-width: 600px) {
+  .nav-text {
+  font-size: smaller;
+  }
+
+  .logoImg {
+  height: 50px;
+  }
+
+}
+
+.about-font {
+  font-size: larger;
+}
+
+.home-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fa-icon {
+  font-size: xx-large;
+}
+
+.footer-style {
+  background-color: rgb(204, 179, 142);
+}
+
+ul {
+  list-style:  outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.address {
+  font-size: 22px;
+  vertical-align: middle;
+  text-align: left;
+  display: inline-block;
+}
+
+a {
+  color: #333
+}
