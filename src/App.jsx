@@ -15,7 +15,7 @@ import volleyball from './assets/volleyball.png';
 import whiteChocolateChip from './assets/whiteChocolateChip.png';
 
 import baseball from './assets/carouselPhotos/baseball.jpg';
-import chocolateChip4 from './assets/carouselPhotos/chocolateChip4.jpg';
+import chocolateChip4 from './assets/carouselPhotos/chocolatechip4.jpg';
 import flowers from './assets/carouselPhotos/flowers.jpg';
 import peanutButter from './assets/carouselPhotos/peanutButter.jpg';
 import texasCactus from './assets/carouselPhotos/Texascactus.jpg';
@@ -32,7 +32,7 @@ function App() {
           <Container className='nav-container'>
             <Navbar.Brand className='nav-text'><img
               className='logoImg'
-              src='/src/assets/logo.png'
+              src={logo}
             />Bake Your Day SA</Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
